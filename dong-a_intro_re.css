@@ -1,0 +1,250 @@
+/*----------------------M A I N----------------*/
+main {
+    height: 600px;
+    background: url(img/Group%2060.png);
+    padding: 0 160px;
+}
+
+main img {
+    height: 600px;
+}
+
+
+/*------------S E A R C H-------------------*/
+main .sch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 1600px;
+}
+
+main form.example input[type=text] {
+    padding-left: 30px;
+    height: 60px;
+    font-size: 17px;
+    border: 2px solid rgba(181, 181, 181, 1);
+    border-radius: 100px 0 0 100px;
+    border-right: none;
+    float: left;
+    width: 430px;
+    background: #ffffff;
+    margin-top: 315px;
+    outline: none;
+}
+
+main form.example button {
+    float: left;
+    width: auto;
+    height: 60px;
+    padding: 0 30px 0 20px;
+    background: #ffffff;
+    color: rgba(181, 181, 181, 1);
+    font-size: 17px;
+    border: 2px solid rgba(181, 181, 181, 1);
+    border-radius: 0 100px 100px 0;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 315px;
+}
+
+main form.example button:hover {
+    background: #ffffff;
+}
+
+main form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*----------------------L N B------------------*/
+.lnb {
+    background-color: white;
+    width: 1920px;
+    height: 100px;
+    position: sticky;
+    top: 95px;
+    display: flex;
+    align-items: center;
+    z-index: 8;
+    border-bottom: 1px solid rgba(181, 181, 181, 1);
+}
+
+
+/*----------------S E C 1----------------------*/
+.sec1 {
+    width: 1920px;
+    height: 2450px;
+    background-color: rgba(249, 249, 249, 1);
+}
+
+.button_area {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    top: 95px;
+}
+
+
+/*-------------------------------sec-item-------------------*/
+.sec-item-R {
+    width: 900px;
+    height: 760px;
+}
+
+.sec-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+
+.sec-item-info {
+    border-left: 2px solid black;
+    height: 400px;
+    margin-top: 42px;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.sec-item .mt-item {
+    color: rgba(0, 142, 170, 1);
+    font-size: 48px;
+}
+
+.sec-item-st1 {
+    margin-top: 60px;
+    font-size: 24px;
+}
+
+.sec-item-txt1 {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.sec-item-st2 {
+    font-size: 20px;
+}
+
+.sec-item-txt2 {
+    margin-top: 14px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+
+.sec-item-list {
+    height: auto;
+    background-color: rgba(249, 249, 249, 1);
+}
+
+/*--------------C A R D------------------------*/
+.card {
+    width: 360px;
+    height: auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.card-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.card-title {
+    font-size: 19px;
+    color: rgba(0, 142, 170, 1);
+    cursor: pointer;
+}
+
+.card-body {
+    width: 360px;
+    height: 120px;
+    background-color: aliceblue;
+    border-radius: 0 0 20px 20px;
+}
+
+.card-img-top {
+    width: 360px;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+}
+
+.card-body-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.card-body-bot {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+/*-----btn-----*/
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-area {
+    width: 100px;
+    height: 26px;
+    background-color: rgba(0, 171, 204, 1);
+    border-radius: 10px;
+    margin: 15px 20px;
+}
+
+.btn-area a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+/*--------888888888------ M O R E - V I E W [ swiper ] --------888888888------*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 16px;
+    background-color: rgba(249, 249, 249, 1);
+    margin-top: 150px;
+}
+
+.swiper-slide img {
+    display: flex;
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1px;
+    color: darkgray;
+    opacity: 1;
+    background: darkgray;
+}
+
+.swiper-pagination-bullet-active {
+    color: rgba(0, 171, 204, 1);
+    background: rgba(0, 171, 204, 1);
+}
+
+/*--------888888888------ M O R E - V I E W [ swiper ] --------888888888------*/

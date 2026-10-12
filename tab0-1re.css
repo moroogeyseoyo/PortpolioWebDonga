@@ -1,0 +1,47 @@
+        li {
+            list-style: none;
+        }
+
+        /*a {
+            text-decoration: none;
+            color: red;
+        }*/
+
+        .button_area > ul {
+            overflow: hidden;
+        }
+
+        .button_area > ul > li {
+            float: left;
+            border: 0px;
+            padding: 10px 0px;
+            margin: 0 30px;
+            cursor: pointer;
+            user-select: none;
+            font-size: 20px;
+        }
+
+        .tab {
+            width: 1600px;
+            height: auto;
+            margin-top: 20px;
+            opacity: 0;
+            transition: opacity 200ms;
+            position: absolute;
+            margin: auto;
+            z-index: 1;
+        }
+
+        .tab:nth-child(2) {
+            display: block;
+            opacity: 1;
+        }
+
+        .tab-vision:nth-child(2) {
+            display: block;
+            opacity: 1;
+        }
+
+        .button_area > ul > li:first-child {
+            color: black;
+        }

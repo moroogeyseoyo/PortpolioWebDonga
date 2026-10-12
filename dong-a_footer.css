@@ -1,0 +1,97 @@
+        /*footer*/
+        footer {
+            width: 1920px;
+            height: 300px;
+            background-color: #222;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        /*foot1*/
+        footer .foot1 {
+            height: 70px;
+            background-color: #333;
+            border-bottom: 2px solid rgba(114, 114, 114, 1);
+            font-size: 16px;
+        }
+
+        footer .foot1 .ft1 {
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 160px 0 160px;
+        }
+
+        footer .foot1 .f-tl {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer .foot1 .f-tr {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer .foot1 .ft-txt {
+            margin-right: 5px;
+        }
+
+        /*foot2*/
+        footer .foot2 {
+            height: 230px;
+        }
+
+        footer .foot2 .ft2 {
+            height: 230px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 160px 0 160px;
+        }
+
+        footer .foot2 .flfm {
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        footer .foot2 .fl img {
+            height: 30px;
+            margin-top: 100px;
+        }
+
+        footer .foot2 .fm {
+            font-size: 16px;
+            margin: 66px 0;
+        }
+
+        footer .foot2 .fm p {
+            margin-bottom: 7px;
+        }
+
+        footer .foot2 .fr {
+            text-align: right;
+        }
+
+        footer .foot2 .fr1 {
+            margin-top: 52px;
+            margin-bottom: 44px;
+        }
+
+        footer .foot2 .fr1-number {
+            font-size: 24px;
+        }
+
+        footer .foot2 .fr1-p {
+            font-size: 12px;
+            color: rgba(181, 181, 181, 1)
+        }
+
+        footer .foot2 .fr img {
+            height: 28px;
+        }
